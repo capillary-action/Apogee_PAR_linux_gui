@@ -82,6 +82,8 @@ class QuantumGUI:
         self.xdata = []
         self.ydata = []
         self.line, = self.ax.plot(self.xdata, self.ydata)
+        self.ax.set_xlabel("Time (s)")
+        self.ax.set_ylabel("PAR (μmol m⁻² s⁻¹)")
 
     def update_plot(self):
         par_value = self.quantum.get_micromoles()
