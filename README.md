@@ -7,4 +7,5 @@ https://www.apogeeinstruments.com/apogee-usb-sensors-and-linux/
 
 - May need to edit line#18: 'def __init__(self, port='/dev/ttyACM0'):' to add the appropriate port name (ttyACM0,ttyUSB0)
 
-![image](https://user-images.githubusercontent.com/117418518/228246914-8a3d3832-0a7e-4c11-9dba-14142b7054a2.png)
+![image](https://user-images.githubusercontent.com/117418518/228255873-1298f99e-371f-420c-ac77-5e20ae045af6.png)
+
